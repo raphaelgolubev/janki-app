@@ -1,5 +1,5 @@
 [tool.poetry]
-package-mode = false
+# package-mode = false
 name = "janki-app"
 version = "0.1.0"
 description = "Приложение для интервальных повторений знаний по методу Anki"
@@ -9,12 +9,17 @@ license = "MIT"
 repository = "https://github.com/raphaelgolubev/janki_app"
 keywords = ["anki", "janki", "anki_app", "anki_app_python"]
 
+packages = [
+    { include = "src" }
+]
+
 [tool.poetry.scripts]
-janki_app = "src.main:main" # poetry run janki_app
+japp = "src.main:main" # poetry run japp
 
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
 
 
 [build-system]
