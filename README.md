@@ -1,4 +1,6 @@
-(Janki-метод | Олег Молчанов)[https://www.youtube.com/watch?v=_dbSRVa1Lxw]
+# Janki App
+
+Видео на эту тему: [Janki-метод | Олег Молчанов](https://www.youtube.com/watch?v=_dbSRVa1Lxw)
 
 Подход интервальных повторений
 
