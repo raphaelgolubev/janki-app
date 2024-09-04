@@ -1,0 +1,21 @@
+[tool.poetry]
+package-mode = false
+name = "janki-app"
+version = "0.1.0"
+description = "Приложение для интервальных повторений знаний по методу Anki"
+authors = ["Raphael Golubev <raphael.golubev@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/raphaelgolubev/janki_app"
+keywords = ["anki", "janki", "anki_app", "anki_app_python"]
+
+[tool.poetry.scripts]
+janki_app = "src.main:main" # poetry run janki_app
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
