@@ -20,6 +20,10 @@ japp = "src.main:main" # poetry run japp
 python = "^3.12"
 fastapi = "^0.112.2"
 uvicorn = "^0.30.6"
+pydantic-settings = "^2.4.0"
+alembic = "^1.13.2"
+sqlalchemy = "^2.0.34"
+psycopg2-binary = "^2.9.9"
 
 
 [build-system]
